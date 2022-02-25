@@ -20,9 +20,9 @@ on:
 # resourceGroupName，containerRegistryName，containerRegistry替换为自己的
 env:
  imageRepository: 'content-web'
- resourceGroupName: 'fabmedical-pim'
- containerRegistryName: 'fabmedicalpim'
- containerRegistry: 'fabmedicalpim.azurecr.cn'
+ resourceGroupName: 'new-sunjy9'
+ containerRegistryName: 'fabmedicalsjy'
+ containerRegistry: 'fabmedicalsjy.azurecr.cn'
  dockerfilePath: './content-web'
  tag: '${{ github.run_id  }}'
 
